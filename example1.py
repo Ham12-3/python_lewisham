@@ -51,3 +51,9 @@ if char in ('a', 'e', 'i', 'o', 'u'):
 
 else:
     print(char + " is a consonant")
+
+
+
+for i in range(1,6,2):
+    print(i)
+ 
