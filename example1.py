@@ -59,9 +59,7 @@
  
 
 nums = int(input("Enter a number: "))
-
 sums =0
 for i in range(nums):
   sums += i
-
 print("The sum of the numbers is", sums)
