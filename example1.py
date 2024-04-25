@@ -18,3 +18,16 @@ elif age == 17:
 
 else:
     print("You are not eligible to vote.")
+
+
+# NESTED FOR LOOPS 
+
+for i in range(4):
+    for j in range(4):
+        print("#", end="")
+    print()
+
+# OUTPUT
+# ####
+# ####
+# ####
