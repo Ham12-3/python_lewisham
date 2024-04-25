@@ -22,38 +22,46 @@
 
 # NESTED FOR LOOPS 
 
-for i in range(6):
-    for j in range(i):
-        print("#", end="")
-    print()
+# for i in range(6):
+#     for j in range(i):
+#         print("#", end="")
+#     print()
 
 
-print("---------------------")
+# print("---------------------")
 
 
-for i in range(3):
-    for j in range(i):
-        print("#", end="")
-    print()
-for i in range(3):
-    for j in range(3-i):
-        print("#", end="")
-    print()
-
-
-
-# Check vowel or consonant alphabets 
-
-char = input("Enter a character: ")
-
-if char in ('a', 'e', 'i', 'o', 'u'):
-    print(char + " is a vowel")
-
-else:
-    print(char + " is a consonant")
+# for i in range(3):
+#     for j in range(i):
+#         print("#", end="")
+#     print()
+# for i in range(3):
+#     for j in range(3-i):
+#         print("#", end="")
+#     print()
 
 
 
-for i in range(1,10,2):
-    print(i)
+# # Check vowel or consonant alphabets 
+
+# char = input("Enter a character: ")
+
+# if char in ('a', 'e', 'i', 'o', 'u'):
+#     print(char + " is a vowel")
+
+# else:
+#     print(char + " is a consonant")
+
+
+
+# for i in range(1,10,2):
+#     print(i)
  
+
+nums = int(input("Enter a number: "))
+
+sums =0
+for i in range(nums):
+  sums += i
+
+print("The sum of the numbers is", sums)
