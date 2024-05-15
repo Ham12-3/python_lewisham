@@ -116,7 +116,7 @@ class SupercarExperienceApp:
 
         result_text = f"Customer Details:\nName: {name}\nAddress: {address}\nPhone: {phone}\n\n"
         result_text += f"Number of Cars: {num_cars}\nCar Choices: {car_choices}\n"
-        result_text += f"Additional Laps: {extra_laps}\n\nTotal Cost: ${total_cost:.2f}"
+        result_text += f"Additional Laps: {extra_laps}\n\nTotal Cost: £{total_cost:.2f}"
 
         self.label_result = ttk.Label(self.frame, text="Receipt", font=("Helvetica", 22, "bold"), style="primary.TLabel")
         self.label_result.pack(pady=10)
