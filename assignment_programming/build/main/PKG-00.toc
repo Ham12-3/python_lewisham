@@ -1,5 +1,4 @@
-('C:\\Users\\mobol\\Downloads\\python_lewisham\\assignment_programming\\build\\main\\Super '
- 'Car Experience.pkg',
+('C:\\Users\\mobol\\Downloads\\python_lewisham\\assignment_programming\\build\\main\\main.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
@@ -56,7 +55,7 @@
    'C:\\Users\\mobol\\miniconda3\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('main',
-   'C:\\Users\\mobol\\Downloads\\python_lewisham\\assignment_programming\\main.py',
+   'C:\\Users\\mobol\\Downloads\\python_lewisham\\assignment_programming\\main.pyw',
    'PYSOURCE')],
  'python39.dll',
  True,
