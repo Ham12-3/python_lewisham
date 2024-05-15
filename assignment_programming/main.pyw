@@ -141,7 +141,7 @@ class SupercarExperienceApp:
             self.frame,
             bootstyle=INFO,
             font=(None, 24, 'bold'),
-            mask='Cost: ${}%',
+            mask='Cost: £{}%',
             value=min(total_cost / 100, 100)
         )
         self.gauge.pack(fill=tk.BOTH, expand=tk.YES, padx=10, pady=10)
