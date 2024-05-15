@@ -1,4 +1,5 @@
-('C:\\Users\\mobol\\Downloads\\python_lewisham\\assignment_programming\\build\\main\\main.pkg',
+('C:\\Users\\mobol\\Downloads\\python_lewisham\\assignment_programming\\build\\main\\supercar '
+ 'experience.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
